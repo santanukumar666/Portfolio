@@ -31,4 +31,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.
 
 Design By [Soumyajit4419](https://github.com/soumyajit4419/Portfolio)
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/78ec3b30-6e8d-4eaf-9be4-b5dc48fdf77b/deploy-status)](https://app.netlify.com/sites/santanukumar/deploys)
