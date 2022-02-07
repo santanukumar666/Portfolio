@@ -28,9 +28,9 @@ function Resume() {
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
               title="FPGA Developer Intern [ Tata Insitute for Fundamental Research ]"
-              date="August 2021 - Present"
+              date="August 2021 - September 2021"
               content={[
-                "Worked on the development of an firmware for an electronic board called ELM-2 ( Emedded Linux Board )",
+                "Worked on a customized ZYNQ Board with Linux/Verilog and fixed bugs in the code which writes into the EEPROMs and then reads back using i2c tools",
               ]}
             />
             <h3 className="resume-title">Extracurricular Activities</h3>
