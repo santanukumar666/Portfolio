@@ -9,6 +9,8 @@ import ethergram from "../../Assets/Projects/ethergram.jpg";
 import medico from "../../Assets/Projects/medico.jpg";
 import photo3 from "../../Assets/Projects/photo3.jpg";
 import stockr from "../../Assets/Projects/stockr.jpg";
+import etherbank from "../../Assets/Projects/etherbank.jpg";
+import ai from "../../Assets/Projects/ai-covid.jpg";
 
 function Projects() {
   return (
@@ -93,6 +95,26 @@ function Projects() {
               title="Bollywood-face-similarity"
               description="Used VGGFace and Resnet50 model we extract features from the photos of the celebrities. It predicts the similar matching Bollywood celeb based on cosine similarity of the pictures."
               link="https://github.com/santanukumar666/Bollywood-face-similarity"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={etherbank}
+              isBlog={false}
+              title="Etherbank"
+              description="Developed a DeFi application for users to deposit and withdrawn Ethereum coins. Depositing Ethereum yields an additional gain of an ERC20 token with an APY of 10%"
+              link="https://github.com/santanukumar666/Etherbank"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ai}
+              isBlog={false}
+              title="Ai-Covid-Detector"
+              description="Detection of Covid in patients from Chest Radiography Images using Xception CNN Architecture"
+              link="https://github.com/santanukumar666/covid_cxr_detection"
             />
           </Col>
         </Row>
