@@ -37,16 +37,33 @@ function Projects() {
               link="https://github.com/Shreyas-Penkar/Genuine-Charity-Application"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={photo3}
+              isBlog={false}
+              title="Bollywood-face-similarity"
+              description="Used VGGFace and Resnet50 model we extract features from the photos of the celebrities. It predicts the similar matching Bollywood celeb based on cosine similarity of the pictures."
+              link="https://github.com/santanukumar666/Bollywood-face-similarity"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={stockr}
+              imgPath={ai}
               isBlog={false}
-              title="STOCK PREDICTION WEB APPLICATION"
-              description=" Used Python, HTML, CSS, Javascript, Flask to create interactive
-              front-end. Used Python for implementing Linear Regression to predict the future value of
-              the desired Stock with 98.67 percent accuracy .Imported live stock data from Yahoo Finance API."
-              link="https://github.com/santanukumar666/StockPredictor"
+              title="Ai-Covid-Detector"
+              description="Detection of Covid in patients from Chest Radiography Images using Xception CNN Architecture"
+              link="https://github.com/santanukumar666/covid_cxr_detection"
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={etherbank}
+              isBlog={false}
+              title="Etherbank"
+              description="Developed a DeFi application for users to deposit and withdrawn Ethereum coins. Depositing Ethereum yields an additional gain of an ERC20 token with an APY of 10%"
+              link="https://github.com/santanukumar666/Etherbank"
             />
           </Col>
 
@@ -78,6 +95,18 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={stockr}
+              isBlog={false}
+              title="STOCK PREDICTION WEB APPLICATION"
+              description=" Used Python, HTML, CSS, Javascript, Flask to create interactive
+              front-end. Used Python for implementing Linear Regression to predict the future value of
+              the desired Stock with 98.67 percent accuracy .Imported live stock data from Yahoo Finance API."
+              link="https://github.com/santanukumar666/StockPredictor"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={data}
               isBlog={false}
               title="EDA projects"
@@ -87,36 +116,7 @@ function Projects() {
               link="https://github.com/santanukumar666/data_analysis_projects"
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={photo3}
-              isBlog={false}
-              title="Bollywood-face-similarity"
-              description="Used VGGFace and Resnet50 model we extract features from the photos of the celebrities. It predicts the similar matching Bollywood celeb based on cosine similarity of the pictures."
-              link="https://github.com/santanukumar666/Bollywood-face-similarity"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={etherbank}
-              isBlog={false}
-              title="Etherbank"
-              description="Developed a DeFi application for users to deposit and withdrawn Ethereum coins. Depositing Ethereum yields an additional gain of an ERC20 token with an APY of 10%"
-              link="https://github.com/santanukumar666/Etherbank"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ai}
-              isBlog={false}
-              title="Ai-Covid-Detector"
-              description="Detection of Covid in patients from Chest Radiography Images using Xception CNN Architecture"
-              link="https://github.com/santanukumar666/covid_cxr_detection"
-            />
-          </Col>
+          
         </Row>
       </Container>
     </Container>
