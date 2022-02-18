@@ -90,9 +90,9 @@ function Projects() {
             <ProjectCard
               imgPath={rusty}
               isBlog={false}
-              title="Memepage Website"
-              description="Made an responsive website using HTML,CSS and Javascript"
-              link="https://github.com/santanukumar666/rusty_battery_memes"
+              title="Bollywood-face-similarity"
+              description="Used VGGFace and Resnet50 model we extract features from the photos of the celebrities. It predicts the similar matching Bollywood celeb based on cosine similarity of the pictures."
+              link="https://github.com/santanukumar666/Bollywood-face-similarity"
             />
           </Col>
         </Row>
