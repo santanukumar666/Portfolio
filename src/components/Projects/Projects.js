@@ -7,7 +7,7 @@ import charity from "../../Assets/Projects/charity.png";
 import data from "../../Assets/Projects/data.jpg";
 import ethergram from "../../Assets/Projects/ethergram.jpg";
 import medico from "../../Assets/Projects/medico.jpg";
-import rusty from "../../Assets/Projects/rusty.jpg";
+import photo3 from "../../Assets/Projects/photo3.jpg";
 import stockr from "../../Assets/Projects/stockr.jpg";
 
 function Projects() {
@@ -88,7 +88,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={rusty}
+              imgPath={photo3}
               isBlog={false}
               title="Bollywood-face-similarity"
               description="Used VGGFace and Resnet50 model we extract features from the photos of the celebrities. It predicts the similar matching Bollywood celeb based on cosine similarity of the pictures."
