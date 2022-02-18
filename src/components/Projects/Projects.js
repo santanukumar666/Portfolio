@@ -41,7 +41,7 @@ function Projects() {
             <ProjectCard
               imgPath={photo3}
               isBlog={false}
-              title="Bollywood-face-similarity"
+              title="BOLLYWOOD FACE SIMILARITY"
               description="Used VGGFace and Resnet50 model we extract features from the photos of the celebrities. It predicts the similar matching Bollywood celeb based on cosine similarity of the pictures."
               link="https://github.com/santanukumar666/Bollywood-face-similarity"
             />
@@ -51,7 +51,7 @@ function Projects() {
             <ProjectCard
               imgPath={ai}
               isBlog={false}
-              title="Ai-Covid-Detector"
+              title="AI COVID DETECTOR"
               description="Detection of Covid in patients from Chest Radiography Images using Xception CNN Architecture"
               link="https://github.com/santanukumar666/covid_cxr_detection"
             />
@@ -61,7 +61,7 @@ function Projects() {
             <ProjectCard
               imgPath={etherbank}
               isBlog={false}
-              title="Etherbank"
+              title="ETHERBANK"
               description="Developed a DeFi application for users to deposit and withdrawn Ethereum coins. Depositing Ethereum yields an additional gain of an ERC20 token with an APY of 10%"
               link="https://github.com/santanukumar666/Etherbank"
             />
@@ -109,7 +109,7 @@ function Projects() {
             <ProjectCard
               imgPath={data}
               isBlog={false}
-              title="EDA projects"
+              title="EDA PROJECTS"
               description="I performed indepth Exploratory data analysis of these datasets found on Kaggle and drew insights from it
               ,tried answering some problems and suggested some solutions to it
               and made some visualizations for better understanding."
