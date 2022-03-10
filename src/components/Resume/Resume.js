@@ -30,9 +30,7 @@ function Resume() {
               title="FPGA Developer Intern [ Tata Insitute for Fundamental Research ]"
               date="December 2021 - January 2022"
               content={[
-                "• Worked on a customized ZYNQ Board to automate its testing and fixed bugs in the code which writes into the
-                   EEPROMs and then reads back using i2c tools.
-                 • The automation reduced the testing time by 30 %."
+                "• Worked on a customized ZYNQ Board to automate its testing and fixed bugs in the code which writes into the EEPROMs and then reads back using i2c tools. • The automation reduced the testing time by 30 %."
               ]}
             />
             <h3 className="resume-title">Extracurricular Activities</h3>
