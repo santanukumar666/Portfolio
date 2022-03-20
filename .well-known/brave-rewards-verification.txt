@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: santanukumar.ml
+Token: 3a3521fbaaebf9832b7df6827351d9146910d5a30f77769d627178e6425f53bb
