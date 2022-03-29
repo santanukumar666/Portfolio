@@ -41,7 +41,13 @@ function Resume() {
             <Resumecontent
               title=" Won a university level quiz competition"
             />
-             
+              <h3 className="resume-title">Positions of Responsibility</h3>
+            <Resumecontent
+              content={["Public Relations Head and Former Sponsorship Executive at TECHNOVANZA,VJTI"]}
+            /> 
+            <Resumecontent
+              content={[" Co-Founder and Joint General Secretary at VISHWA Astroclub,VJTI"]}
+            />
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
