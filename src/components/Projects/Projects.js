@@ -11,6 +11,7 @@ import photo3 from "../../Assets/Projects/photo3.jpg";
 import stockr from "../../Assets/Projects/stockr.jpg";
 import etherbank from "../../Assets/Projects/etherbank.jpg";
 import ai from "../../Assets/Projects/ai-covid.jpg";
+import twitter from "../../Assets/Projects/twitter.jpg"
 
 function Projects() {
   return (
@@ -46,7 +47,15 @@ function Projects() {
               link="https://github.com/santanukumar666/Bollywood-face-similarity"
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath=twitter}
+              isBlog={false}
+              title="TWITTER SENTIMENT ANALYSIS"
+              description="A webapp built using streamlit to display the sentiments of people regarding any events happening in the world by analyzing tweets related to that event.It will search for tweets about any topic and analyze each tweet to see whether the emotion is Negtive, Neutral or Positive, also fetches tweets from the profile of the entered username."
+              link="https://github.com/santanukumar666/Twitter-Sentiment-Analysis"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ai}
