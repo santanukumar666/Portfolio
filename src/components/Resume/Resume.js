@@ -4,6 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import pdf from '../../Assets/santanu_Resume.pdf';
+import pdf1 from '../../Assets/santanu_Resume_for_DS.pdf';
 
 
 import { AiOutlineDownload } from "react-icons/ai";
@@ -71,9 +72,9 @@ function Resume() {
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href={pdf} target="_blank">
+          <Button variant="primary" href={pdf1} target="_blank">
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Download CV for Data science domain
           </Button>
         </Row>
       </Container>
