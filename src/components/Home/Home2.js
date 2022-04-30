@@ -16,7 +16,7 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              MY <span className="purple"> INTRODUCION </span>
             </h1>
             <p className="home-about-body">
             I'm a Pre Final Year Undergraduate student in Electronics and Telecommunications at VJTI, Mumbai. Interested in learning and building new things.
@@ -27,12 +27,12 @@ function Home2() {
               </i>
               <br />
               <br />
-              For the past two years I have worked on projects on these domains&nbsp;
+              For the past two years I have pursued courses and worked on projects related to &nbsp;
               <i>
-                <b className="purple">Web Technologies and Blockchain </b> and
+                <b className="purple">Machine Learning and Data Science </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Machine Learning ,Deep Learning and Natural Launguage Processing.
+                  Blockchain ,Deep Learning and Natural Launguage Processing.
                 </b>
               </i>
               <br />
