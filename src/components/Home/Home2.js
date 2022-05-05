@@ -16,14 +16,14 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              MY <span className="purple"> INTRODUCION </span>
+              MY <span className="purple"> INTRODUCTION </span>
             </h1>
             <p className="home-about-body">
             I'm a Pre Final Year Undergraduate student in Electronics and Telecommunications at VJTI, Mumbai. Interested in learning and building new things.
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Python,C++ and Solidity </b>
+                <b className="purple"> Python,C++ and SQL</b>
               </i>
               <br />
               <br />
