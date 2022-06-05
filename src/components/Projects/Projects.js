@@ -52,7 +52,7 @@ function Projects() {
               imgPath={twitter}
               isBlog={false}
               title="TWITTER SENTIMENT ANALYSIS"
-              description="A webapp built using streamlit to display the sentiments of people regarding any events happening in the world by analyzing tweets. It searches for tweets about any topic and analyses each tweet to see whether the emotion is Negtive, Neutral or Positive, can also fetch tweets from the profile of the entered username."
+              description="A webapp built using streamlit to display the sentiments of people regarding any events happening in the world by analyzing tweets. It searches for tweets about any topic and analyses each tweet to see whether the emotion is Neagtive, Neutral or Positive, can also fetch tweets from the profile of the entered username."
               link="https://github.com/santanukumar666/Twitter-Sentiment-Analysis"
             />
           </Col>
