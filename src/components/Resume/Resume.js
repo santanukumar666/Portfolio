@@ -31,7 +31,7 @@ function Resume() {
               title="Data Science Intern [ Crux Intelligence (Fractal Analytics) ]"
               date="June 2022 - August 2022"
               content={[
-                "• Worked on the question completion feature of their data informatics product.         "       ,
+                <li> • Worked on the question completion feature of their data informatics product.</li>
                 "• Performed regular optimization and error analysis on the pipeline to align with the client’s requirements, right from data preparation to model training and evaluation.        "        ,
                 "• Carried out iterations of fine-tuning Transformer models for Natural language generation depending on use cases."
               ]}
