@@ -31,10 +31,19 @@ function Resume() {
               title="FPGA Developer Intern [ Tata Insitute for Fundamental Research ]"
               date="December 2021 - January 2022"
               content={[
+                "• Worked on the question completion feature of their data informatics product.
+                "• Performed regular optimization and error analysis on the pipeline to align with the client’s requirements, right from data preparation to model training and evaluation."
+                "• Carried out iterations of fine-tuning Transformer models for Natural language generation depending on use cases."
+              ]}
+            />
+            <Resumecontent
+              title="Data Science Intern [ Crux Intelligence (Fractal Analytics) ]"
+              date="June 2022 - August 2022"
+              content={[
                 "• Worked on a customized ZYNQ Board to automate its testing and fixed bugs in the code which writes into the EEPROMs and then reads back using i2c tools.      ",
                 "• The automation reduced the testing time by 30 %."
               ]}
-            />
+            />    
             <h3 className="resume-title">Extracurricular Activities</h3>
             <Resumecontent
               title="Represented my school at a district level swimming competition"
