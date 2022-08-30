@@ -12,6 +12,8 @@ import stockr from "../../Assets/Projects/stockr.jpg";
 import etherbank from "../../Assets/Projects/etherbank.jpg";
 import ai from "../../Assets/Projects/ai-covid.jpg";
 import twitter from "../../Assets/Projects/twitter.jpg"
+import moviegenre from "../../Assets/Projects/movie-genre.png"
+import caption from "../../Assets/Projects/caption.png"
 
 function Projects() {
   return (
@@ -25,6 +27,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={moviegenre}
+              isBlog={false}
+              title="MOVIE GENRE PREDICTION"
+              description=" This project aims at determinig the genre of the movie using its posters for image classifications
+              CNNs are the most effective types of neural network in this project we try to create a CNN which would predict the 
+              genres of these movies."
+              link="https://github.com/santanukumar666/Movie-Genre-Detection-From-Posters"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={charity}
