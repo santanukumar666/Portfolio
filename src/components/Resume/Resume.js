@@ -52,13 +52,7 @@ function Resume() {
             <Resumecontent
               title=" Won a university level quiz competition"
             />
-              <h3 className="resume-title">Positions of Responsibility</h3>
-            <Resumecontent
-              content={["Public Relations Head and Former Sponsorship Executive at TECHNOVANZA,VJTI"]}
-            /> 
-            <Resumecontent
-              content={[" Co-Founder and Joint General Secretary at VISHWA Astroclub,VJTI"]}
-            />
+             
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
@@ -72,12 +66,18 @@ function Resume() {
               date='2017 - 2019'
               content={['Precentage: 92.2%']}
             />
-             <Resumecontent
+              <Resumecontent
               title='SSC [ Atomic Energy Central School-2,Mumbai ] '
               date='2007 - 2017'
               content={['Precentage: 95.8%']}
-             />
-            
+              />
+               <h3 className="resume-title">Positions of Responsibility</h3>
+              <Resumecontent
+              content={["Public Relations Head and Former Sponsorship Executive at TECHNOVANZA,VJTI"]}
+              /> 
+              <Resumecontent
+              content={[" Co-Founder and Joint General Secretary at VISHWA Astroclub,VJTI"]}
+              />
             
           </Col>
         </Row>
