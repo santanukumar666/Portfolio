@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import pdf from '../../Assets/Santanu_Resume_dev.pdf';
-import pdf1 from '../../Assets/santanu_resume_DS.pdf';
+import pdf1 from '../../Assets/Santanu_resume_ML.pdf';
 
 
 import { AiOutlineDownload } from "react-icons/ai";
