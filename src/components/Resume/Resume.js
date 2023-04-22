@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
-import pdf from '../../Assets/Santanu_Resume_dev.pdf';
+import pdf from '../../Assets/Santanu_resume_SWE.pdf';
 import pdf1 from '../../Assets/Santanu_resume_ML.pdf';
 
 
